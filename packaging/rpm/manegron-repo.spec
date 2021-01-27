@@ -23,7 +23,7 @@ as well as configuration for yum.
 %install
 mkdir -p $RPM_BUILD_ROOT%{_sysconfdir}/yum.repos.d
 mkdir -p $RPM_BUILD_ROOT%{_sysconfdir}/pki/rpm-gpg
-install -D -m 644 resources/redborder.repo $RPM_BUILD_ROOT%{_sysconfdir}/yum.repos.d/
+install -D -m 644 resources/manegron.repo $RPM_BUILD_ROOT%{_sysconfdir}/yum.repos.d/
 install -D -m 644 resources/RPM-GPG-KEY-redborder-repo $RPM_BUILD_ROOT%{_sysconfdir}/pki/rpm-gpg/
 
 %clean
@@ -31,9 +31,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(0644,root,root)
-/etc/yum.repos.d/redborder.repo
+/etc/yum.repos.d/manegron.repo
 /etc/pki/rpm-gpg/RPM-GPG-KEY-redborder-repo
 
 %changelog
+* Wed Jan 27 2020 Miguel Negrón <manegron@redborder.com> - 0.0.2-1
+- Set correct name
 * Wed Jan 27 2020 Miguel Negrón <manegron@redborder.com> - 0.0.1-1
 - first spec version
