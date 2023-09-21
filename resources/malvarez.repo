@@ -1,0 +1,6 @@
+[malvarez-devel]
+name=malvarez repository devel
+baseurl=http://rbrepo.redborder.lan/malvarez/
+gpgcheck=0
+enabled=1
+sslcheck=0
