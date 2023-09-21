@@ -35,7 +35,5 @@ rm -rf $RPM_BUILD_ROOT
 /etc/pki/rpm-gpg/RPM-GPG-KEY-redborder-repo
 
 %changelog
-* Wed Jan 27 2020 Miguel Negrón <malvarez@redborder.com> - 0.0.2-1
-- Set correct name
-* Wed Jan 27 2020 Miguel Negrón <malvarez@redborder.com> - 0.0.1-1
+* Wed Sep 21 2023 Miguel Álvarez <malvarez@redborder.com> - 0.0.1-1
 - first spec version
