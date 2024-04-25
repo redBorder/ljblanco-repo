@@ -1,7 +1,6 @@
 Name: malvarez-repo
 Version: %{__version}
 Release: %{__release}%{?dist}
-BuildArch: noarch
 Summary: package for redBorder repository	
 BuildArch: noarch
 
@@ -35,5 +34,7 @@ rm -rf $RPM_BUILD_ROOT
 /etc/pki/rpm-gpg/RPM-GPG-KEY-redborder-repo
 
 %changelog
+* Thu Apr 25 2024 Miguel Alvarez <malvarez@redborder.com> - 0.0.2-1
+- Fix BuildArch
 * Wed Sep 21 2023 Miguel Álvarez <malvarez@redborder.com> - 0.0.1-1
 - first spec version
