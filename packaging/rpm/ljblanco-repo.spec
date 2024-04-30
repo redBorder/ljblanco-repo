@@ -34,7 +34,7 @@ rm -rf $RPM_BUILD_ROOT
 /etc/pki/rpm-gpg/RPM-GPG-KEY-redborder-repo
 
 %changelog
-* Thu Apr 25 2024 Miguel Alvarez <ljblanco@redborder.com> - 0.0.2-1
+* Thu Apr 25 2024 Miguel Alvarez <malvarez@redborder.com> - 0.0.2-1
 - Fix BuildArch
-* Wed Sep 21 2023 Miguel Álvarez <ljblanco@redborder.com> - 0.0.1-1
+* Wed Sep 21 2023 Miguel Álvarez <malvarez@redborder.com> - 0.0.1-1
 - first spec version
